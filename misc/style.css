@@ -1,0 +1,41 @@
+html {
+    
+    font-family: 'Arial', sans-serif;
+   }
+
+
+#flexcontainer {
+    display: flex;
+    padding: 15px;
+}
+#logo {
+    padding: 25px;
+    height: 100px;
+    flex: 0;
+}
+#logo-box {
+    padding: 15px;
+}
+#headline {
+    width: 90%;
+    flex: 0 0 50%;
+    padding: 25px;
+}
+#info-box {
+    border: 1px #000 solid;
+    border-radius: 5px;
+    padding: 15px;
+}
+#links {
+    padding-top: 15px;
+}
+
+.btn {
+    border-radius: 5px;
+    padding: 5px 15px 5px 15px;
+    background-color: #f7a600;
+    color: #fff;
+    margin-bottom: 15px;
+    border-color: #f7a600;
+}
+
